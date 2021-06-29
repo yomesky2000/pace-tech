@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pace-tech-app
+  labels:
+    app: pace-tech-app
+spec:
+  containers:
+    - name: pace-tech-app
+      image: ginger2000/pace-tech-app:v1
+      ports:
+        - containerPort: 8080
