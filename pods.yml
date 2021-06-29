@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: pace-tech-app
-      image: ginger2000/pace-tech-app:v1
+      image: ginger2000/pace-tech-app:tagVersion
       ports:
         - containerPort: 8080
